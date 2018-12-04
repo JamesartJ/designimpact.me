@@ -24,6 +24,8 @@ import imgKarma02 from '../../../assets/karma/karma-02.png'
 import imgKarma02_2x from '../../../assets/karma/karma-02@2x.png'
 import imgKarma03 from '../../../assets/karma/karma-03.png'
 import imgKarma03_2x from '../../../assets/karma/karma-03@2x.png'
+import imgKarma06 from '../../../assets/karma/karma-06.png'
+import imgKarma06_2x from '../../../assets/karma/karma-06@2x.png'
 
 
 class WorkItemKarma extends React.Component {
@@ -77,8 +79,8 @@ class WorkItemKarma extends React.Component {
         </WorkSection>
 
         <WorkSection
-          title="A long term solution"
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+          title="A Longerm Solution"
+          description={'Students taking a class in the entrepreneurship department reached out, with plans to build an app allowing students similar access to a community transportation. By virtue of their attendance, each student has a student ID. This account information was used for both requesting rides as well as tracking the driving of other students. Volunteering to drive other students earned "Karma points" which the app tracked These points could then be spent on future rides or on special rewards offered by the college. After login, the landing screen allowed users to request rides. If the user wished to earn points by giving rides, they would navigate to the points section.'}
         >
           <WorkRow>
             <Col sm={10} offset={{ sm: 1 }}>
