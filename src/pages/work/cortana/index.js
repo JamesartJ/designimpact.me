@@ -40,12 +40,12 @@ class WorkItemCortana extends React.Component {
 
         <WorkSection
           title="The Problem"
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+          description={`Working at Swirl on Microsoft Cortana, our challenge was to create an in-store experience showcasing Cortana’s many skills and everyday utility. The proposal took the form of a voice guided experience with an attached tv to demonstrate the outcome of different Cortana skills.`}
         />
 
         <WorkSection
           title="Discovery"
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+          description={`Much of the research was handed over to our team from the client. It focused on the aspects of Cortana which provided users felt added the most value, along with different situations and circumstances where its feature set shines. `}
         >
           <WorkRow>
             {
@@ -89,7 +89,7 @@ class WorkItemCortana extends React.Component {
           <WorkRow>
             <Col sm={10} offset={{ sm: 1 }}>
               <Figure
-                videoSrc="../../../assets/cortana/cortana-vid-01.mp4"
+                videoSrc="https://youtu.be/AH8W85VIlt4"
                 caption="Lorem ipsum dolor sit amet"
               />
             </Col>

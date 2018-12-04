@@ -145,7 +145,7 @@ class About extends React.Component {
               <Figure
                 imgSrc={imgCollege01}
                 imgSrc2x={imgCollege01_2x}
-                caption="Summary of OPD"
+                caption="Check out onpointdesign.org"
               />
             </Col>
           </WorkRow>
