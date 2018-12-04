@@ -26,17 +26,17 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-609742980dd88fc2d311.js"
+    "url": "webpack-runtime-37a84b6ad9b2420d36b2.js"
   },
   {
-    "url": "app-e407ee077810e9eb7179.js"
+    "url": "app-c5bea606186bc8472cae.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-6eabbc4d1e778ae619dd.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "02f4e5bdc2f7dc3440e48e7115a43382"
+    "revision": "e01f499e55f12dda51c135ed71949370"
   },
   {
     "url": "component---src-pages-404-js-089c8774d437048b9fb2.js"
@@ -78,7 +78,7 @@ var navigationRoute = new workbox.routing.NavigationRoute(function (_ref) {
 
     // Respond with the offline shell if we match the custom whitelist
     if (customWhitelist.includes(pathname)) {
-      var offlineShell = "/designimpact.me/offline-plugin-app-shell-fallback/index.html";
+      var offlineShell = "/offline-plugin-app-shell-fallback/index.html";
       var cacheName = workbox.core.cacheNames.precache;
       return caches.match(offlineShell, {
         cacheName: cacheName
@@ -135,7 +135,7 @@ var messageApi = {
           includesPrefix = _ref3.includesPrefix;
 
       if (!includesPrefix) {
-        return "/designimpact.me" + pathname;
+        return "" + pathname;
       } else {
         return pathname;
       }
