@@ -3,7 +3,7 @@ module.exports = {
     description: '',
     siteUrl: 'https://designimpact.me/',
   },
-  pathPrefix: '/designimpact.me',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-plugin-emotion`,
