@@ -3,11 +3,27 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import { Container, Row, Col } from 'react-grid-system'
+import Figure from '../components/Figure'
 import Layout from '../components/layout'
 import GlobalHeader from '../components/GlobalHeader'
 import { rhythm } from '../system/typography'
 import { css, cx, Global } from 'emotion'
 import { color, typography } from '../system'
+
+// images
+import LearnWhoIAm00 from '../assets/index/learnwhoiam00.png'
+import LearnWhoIAm00_2x from '../assets/index/learnwhoiam00@2x.png'
+import LearnWhoIAm01 from '../assets/index/learnwhoiam01.png'
+import LearnWhoIAm01_2x from '../assets/index/learnwhoiam01@2x.png'
+import LearnWhoIAm02 from '../assets/index/learnwhoiam02.png'
+import LearnWhoIAm02_2x from '../assets/index/learnwhoiam02@2x.png'
+
+import WhatIMake00 from '../assets/index/whatimake00.png'
+import WhatIMake00_2x from '../assets/index/whatimake00@2x.png'
+import WhatIMake01 from '../assets/index/whatimake01.png'
+import WhatIMake01_2x from '../assets/index/whatimake01@2x.png'
+import WhatIMake02 from '../assets/index/whatimake02.png'
+import WhatIMake02_2x from '../assets/index/whatimake02@2x.png'
 
 const page = css`
   background: ${color.black};
@@ -179,15 +195,15 @@ class HomeIndex extends React.Component {
             <Container className={container}>
               <Row style={{ marginBottom: 50 }}>
                 <Col offset={{ sm: 5 }} sm={7}>
-                  <img src="https://picsum.photos/546/346/?random" />
+                  <Figure imgSrc={LearnWhoIAm00} imgSrc2x={LearnWhoIAm00_2x} />
                 </Col>
               </Row>
               <Row>
                 <Col>
-                  <img src="https://picsum.photos/460/350/?random" />
+                  <Figure imgSrc={LearnWhoIAm01} imgSrc2x={LearnWhoIAm01_2x} />
                 </Col>
                 <Col offset={{ sm: 2 }}>
-                  <img src="https://picsum.photos/400/400/?random" />
+                  <Figure imgSrc={LearnWhoIAm02} imgSrc2x={LearnWhoIAm02_2x} />
                 </Col>
               </Row>
             </Container>
@@ -197,21 +213,24 @@ class HomeIndex extends React.Component {
               <Row>
                 <Col>
                   <Row>
-                    <Col>
-                      <div style={{ paddingTop: 25, paddingBottom: 25 }}>
-                        <img src="https://picsum.photos/475/267/?random" />
-                      </div>
+                    <Col style={{ textAlign: 'right' }}>
+                      <Figure imgSrc={WhatIMake01} imgSrc2x={WhatIMake01_2x} />
                     </Col>
                   </Row>
                   <Row>
                     <Col>
-                      <img src="https://picsum.photos/604/339/?random" />
+                      <div style={{ paddingTop: 25, paddingBottom: 25 }}>
+                        <Figure
+                          imgSrc={WhatIMake00}
+                          imgSrc2x={WhatIMake00_2x}
+                        />
+                      </div>
                     </Col>
                   </Row>
                 </Col>
                 <Col>
                   <div style={{ paddingLeft: 50 }}>
-                    <img src="https://picsum.photos/546/561/?random" />
+                    <Figure imgSrc={WhatIMake02} imgSrc2x={WhatIMake02_2x} />
                   </div>
                 </Col>
               </Row>
