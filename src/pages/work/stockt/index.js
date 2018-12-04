@@ -16,6 +16,8 @@ import WorkHeader from '../../../components/WorkHeader'
 import { typography } from '../../../system'
 
 // images
+import imgStockt00 from '../../../assets/stockt/stockt-00.png'
+import imgStockt00_2x from '../../../assets/stockt/stockt-00@2x.png'
 import imgStockt01 from '../../../assets/stockt/stockt-01.png'
 import imgStockt01_2x from '../../../assets/stockt/stockt-01@2x.png'
 import imgStockt02 from '../../../assets/stockt/stockt-02.png'
@@ -50,40 +52,31 @@ class WorkItemFandor extends React.Component {
 
         <WorkSection
           title="The Problem"
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+          description={`In a world saturated with the benefits of digital communication, restaurants rely on text messages and phone calls for managing their orders and vendor communication. The goal was to solve issues with their current communication and deliver a solution in the form of a mobile first web application.`}
         >
-          <WorkRow>
-            {/* 
-            <Col sm={8} offset={{ sm: 1 }}>
-              <Figure
-                imgSrc="https://placehold.it/860x565"
-                imgSrc2x="https://placehold.it/1720x1130"
-                caption="Lorem ipsum dolor sit amet"
-              />
-            </Col> 
-            */}
-          </WorkRow>
+  
         </WorkSection>
 
         <WorkSection
           title="Discovery"
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+          description={`Beginning with research, I interviewed several chefs in different industries. I compiled these research findings into multiple takeaways. Some major insights included: Chefs value clear and concise communication with vendors that’s easily tracked, they need to manage order minimums, quickly restock on items they’ve run out of, and reorder items that consistently appear on their fixed menu.
+`}
         >
           <WorkRow>
-            {
-              <Col sm={10} offset={{ sm: 1 }}>
-                <Figure
-                  imgSrc="https://placehold.it/860x565"
-                  imgSrc2x="https://placehold.it/1720x1130"
-                  caption="Lorem ipsum dolor sit amet"
-                />
-              </Col>
+            { 
+            <Col sm={10} offset={{ sm: 1 }}>
+              <Figure
+                imgSrc={imgStockt00}
+                imgSrc2x={imgStockt00_2x}
+                caption="Lorem ipsum dolor sit amet"
+              />
+            </Col> 
             }
           </WorkRow>
         </WorkSection>
         <WorkSection
           title="Ideation"
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+          description={`I began on the white board by describing the user stories for both chefs and vendors. I then worked to translate these stories into initial ordering flows. From there, I mapped a preliminary information architecture and potential UI components.`}
         >
           <WorkRow>
             <Col offset={{ sm: 1 }} sm={10}>
@@ -136,9 +129,9 @@ class WorkItemFandor extends React.Component {
           </WorkRow>
         </WorkSection>
         <WorkSection
-          title="Ideation"
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
-        >
+          title="Interface Design"
+          description={`After validating our initial direction with these chefs and internal stakeholders, I began necessary components with an atomic design approach. Assembling these atoms into larger components, I designed initial screens for the different sates of the application.`}
+        > 
           <WorkRow>
             <Col sm={9} offset={{ sm: 1 }}>
               <Figure
@@ -150,9 +143,15 @@ class WorkItemFandor extends React.Component {
           </WorkRow>
         </WorkSection>
         <WorkSection
-          title="Ideation"
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+          title="Prototyping"
+          description={`It was imperative to test at this stage before engineering the front end. So I created an invision prototype which we disseminated to our user group for feedback. It quickly became apparent that there needed to be more information surfaced for billing purposes. The solution was to include a pdf export of purchase orders for restaurant owners to maintain their paper-trail of orders.`}
+        > </WorkSection>
+
+        <WorkSection
+          title="Deployment"
+          description={`Working with our full-stack engineer, I applied styles to the front end react components. There were many opportunities to incorporate stronger interactions, which pushed my knowledge of front-end interaction design. After a successful product launch with a limited user set, we raised a quarter-million in seed. I left shortly after as much of the work that remained was logistics and sales for the projected year of growth.`}
         >
+
           <WorkRow>
             <Col sm={9} offset={{ sm: 1 }}>
               <Figure

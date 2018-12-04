@@ -85,27 +85,14 @@ class WorkItemKarma extends React.Component {
           <WorkRow>
             <Col sm={10} offset={{ sm: 1 }}>
               <Figure
-                imgSrc={imgKarma03}
-                imgSrc2x={imgKarma03_2x}
+                imgSrc={imgKarma06}
+                imgSrc2x={imgKarma06_2x}
               />
             </Col>
           </WorkRow>
-          <WorkRow>
-            <Col sm={10} offset={{ sm: 1 }}>
-              <Figure
-                imgSrc="https://placehold.it/862x529"
-                imgSrc2x="https://placehold.it/1724x1058"
-              />
-            </Col>
-          </WorkRow>
-          <WorkRow>
-            <Col sm={10} offset={{ sm: 1 }}>
-              <Figure
-                imgSrc="https://placehold.it/862x529"
-                imgSrc2x="https://placehold.it/1724x1058"
-              />
-            </Col>
-          </WorkRow>
+
+
+      
         </WorkSection>
 
         <PageFooter>
