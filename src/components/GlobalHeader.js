@@ -23,7 +23,6 @@ const headerStyle = css`
 const headerStyleInverse = css`
   position: fixed;
   width: 100%;
-  padding: 50px;
   z-index: 3;
   * {
     margin-bottom: 0;

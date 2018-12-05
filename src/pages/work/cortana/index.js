@@ -81,7 +81,7 @@ class WorkItemCortana extends React.Component {
         </WorkSection>
         <WorkSection
           title="Interaction Design"
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+          description={`As we moved into parallel sprints for both design and development, it became increasingly likely that the experience could not be navigated with voice alone, our build wasn’t reliable enough. So we added a Microsoft surface tablet to the stand. I designed an interaction on the surface intended to confirm selection and draw the eye up towards the experience on the tv display.`}
         >
           <WorkRow>
             <Col sm={10} offset={{ sm: 1 }}>

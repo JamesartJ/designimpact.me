@@ -21,13 +21,13 @@ class WorkItemFandor extends React.Component {
       <Layout location={this.props.location}>
         <WorkHeader
           title="Fandor"
-          when="MMMM YY"
-          role="Your Role"
-          tools="Tools used, comma separated"
+          when="Oct 2017 - Mar 2018"
+          role="UX Designer"
+          tools="Sketch, Invision"
         />
 
         <WorkSection
-          title="Section Title A"
+          title="The Problem"
           description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
         >
           <WorkRow>
@@ -44,7 +44,7 @@ class WorkItemFandor extends React.Component {
         </WorkSection>
 
         <WorkSection
-          title="Section Title B"
+          title="Discovery"
           description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
         >
           <WorkRow>

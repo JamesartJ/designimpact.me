@@ -63,7 +63,7 @@ const container = css`
 `
 
 const heroLink = css`
-  font-size: ${typography.rhythm(4)};
+  font-size: ${typography.rhythm(5)};
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
 
@@ -77,7 +77,7 @@ const heroLinkActive = css`
 `
 
 const heroLinkSmall = css`
-  font-size: ${typography.rhythm(1.3)};
+  font-size: ${typography.rhythm(1.4)};
   font-size: ${typography.scale(2.65)};
   font-family: 'Georgia';
   font-style: italic;

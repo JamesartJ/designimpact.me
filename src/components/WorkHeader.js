@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import { Link } from 'gatsby'
 import { css, cx } from 'emotion'
 import { color, typography } from '../system'
