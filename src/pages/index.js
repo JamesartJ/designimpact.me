@@ -82,7 +82,7 @@ const heroLinkSmall = css`
   font-family: 'Georgia';
   font-style: italic;
   font-weight: normal;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
 `
 
 const sceneBackground = css`
@@ -151,9 +151,9 @@ class HomeIndex extends React.Component {
           title={`James Josephson`}
         />
         <GlobalHeader inverse>
-          <h1>
+          <h3>
             <Link to={'/'}>James Josephson</Link>
-          </h1>
+          </h3>
         </GlobalHeader>
         <div className={foreground}>
           <Container className={container}>

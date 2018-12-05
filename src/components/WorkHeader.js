@@ -14,8 +14,8 @@ const copy = css`
 `
 
 const label = css`
-  margin-bottom: 3px;
-  font-weight: normal;
+  margin-bottom: 12px;
+  font-weight: 500;
   color: #4a4a4a;
 `
 

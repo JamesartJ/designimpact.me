@@ -31,15 +31,16 @@ const title = css`
     }
   }
 `
-const copy = css``
+const copy = css`
+  line-height: ${typography.scale(.3)};
+`
 
 const itemContainer = css`
   margin-bottom: 6rem;
 `
 const date = css`
   color: #4a4a4a;
-  font-size: ${typography.rhythm(0.6)};
-  font-size: ${typography.scale(0.6)};
+  font-weight: 500;
 `
 
 class BlogIndex extends React.Component {
@@ -61,7 +62,7 @@ class BlogIndex extends React.Component {
           <Row>
             <Col sm={4}>
               <h1 className={title}>
-                <Link to="work/karma">Karma</Link>
+                <Link to="work/karma">View Karma</Link>
               </h1>
               <div className={date}>Fall 2015</div>
             </Col>
@@ -89,7 +90,7 @@ class BlogIndex extends React.Component {
           <Row>
             <Col sm={4}>
               <h1 className={title}>
-                <Link to="work/stockt">Stockt</Link>
+                <Link to="work/stockt">View Stockt</Link>
               </h1>
               <div className={date}>Fall 2017</div>
             </Col>
@@ -117,7 +118,7 @@ class BlogIndex extends React.Component {
           <Row>
             <Col sm={4}>
               <h1 className={title}>
-                <Link to="work/cortana">Cortana</Link>
+                <Link to="work/cortana">View Cortana</Link>
               </h1>
               <div className={date}>March 2018</div>
             </Col>
@@ -145,7 +146,7 @@ class BlogIndex extends React.Component {
           <Row>
             <Col sm={4}>
               <h1 className={title}>
-                <Link to="work/fandor">Fandor</Link>
+                <Link to="work/fandor">View Fandor</Link>
               </h1>
               <div className={date}>Sep 2018</div>
             </Col>

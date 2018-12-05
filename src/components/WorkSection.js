@@ -10,8 +10,9 @@ const sectionClass = css`
   z-index: 2;
   position: relative;
 `
+
 const copy = css`
-  line-height: ${typography.scale(0.3)};
+  line-height: ${typography.scale(.3)};
 `
 
 class WorkSection extends React.Component {

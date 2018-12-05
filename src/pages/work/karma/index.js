@@ -48,7 +48,7 @@ class WorkItemKarma extends React.Component {
               <Figure
                 imgSrc={imgKarma00}
                 imgSrc2x={imgKarma00_2x}
-                caption="Lorem ipsum dolor sit amet"
+                caption="Our response"
               />
             </Col>
           </WorkRow>
@@ -63,6 +63,7 @@ class WorkItemKarma extends React.Component {
               <Figure
                 imgSrc={imgKarma01}
                 imgSrc2x={imgKarma01_2x}
+                caption="Students occupied the Dean's office in protest"
               />
             </Col>
           </WorkRow>
@@ -71,7 +72,7 @@ class WorkItemKarma extends React.Component {
             <Col sm={9} offset={{ sm: 1 }}>
               <Figure
                 videoSrc="https://www.youtube.com/watch?v=i4MCMvEK530"
-                caption="Lorem ipsum dolor sit amet (vimeo)"
+                caption="Discussing with the Oregonian"
               />
             </Col>
           </WorkRow>
