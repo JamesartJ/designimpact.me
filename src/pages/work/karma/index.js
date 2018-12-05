@@ -79,7 +79,7 @@ class WorkItemKarma extends React.Component {
         </WorkSection>
 
         <WorkSection
-          title="A Longerm Solution"
+          title="A Longterm Solution"
           description={'Students taking a class in the entrepreneurship department reached out, with plans to build an app allowing students similar access to a community transportation. By virtue of their attendance, each student has a student ID. This account information was used for both requesting rides as well as tracking the driving of other students. Volunteering to drive other students earned "Karma points" which the app tracked These points could then be spent on future rides or on special rewards offered by the college. After login, the landing screen allowed users to request rides. If the user wished to earn points by giving rides, they would navigate to the points section.'}
         >
           <WorkRow>

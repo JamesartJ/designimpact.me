@@ -68,7 +68,7 @@ class WorkItemFandor extends React.Component {
               <Figure
                 imgSrc={imgStockt00}
                 imgSrc2x={imgStockt00_2x}
-                caption="Lorem ipsum dolor sit amet"
+                caption="User Interviews"
               />
             </Col> 
             }
@@ -85,14 +85,14 @@ class WorkItemFandor extends React.Component {
                   <Figure
                     imgSrc={imgStockt04}
                     imgSrc2x={imgStockt04_2x}
-                    caption="Lorem ipsum dolor sit amet"
+                    caption="User Stories"
                   />
                 </Col>
                 <Col sm={6}>
                   <Figure
                     imgSrc={imgStockt05}
                     imgSrc2x={imgStockt05_2x}
-                    caption="Lorem ipsum dolor sit amet"
+                    caption="User Journey"
                   />
                 </Col>
               </Row>
@@ -103,16 +103,16 @@ class WorkItemFandor extends React.Component {
               <Row>
                 <Col sm={6}>
                   <Figure
-                    imgSrc={imgStockt06}
-                    imgSrc2x={imgStockt06_2x}
-                    caption="Lorem ipsum dolor sit amet"
+                    imgSrc={imgStockt07}
+                    imgSrc2x={imgStockt07_2x}
+                    caption="Information architecture"
                   />
                 </Col>
                 <Col sm={6}>
                   <Figure
-                    imgSrc={imgStockt07}
-                    imgSrc2x={imgStockt07_2x}
-                    caption="Lorem ipsum dolor sit amet"
+                    imgSrc={imgStockt06}
+                    imgSrc2x={imgStockt06_2x}
+                    caption="Drawing Screens"
                   />
                 </Col>
               </Row>
@@ -123,7 +123,7 @@ class WorkItemFandor extends React.Component {
               <Figure
                 imgSrc={imgStockt08}
                 imgSrc2x={imgStockt08_2x}
-                caption="Lorem ipsum dolor sit amet"
+                caption="Planning components"
               />
             </Col>
           </WorkRow>
@@ -137,7 +137,7 @@ class WorkItemFandor extends React.Component {
               <Figure
                 imgSrc={imgStockt09}
                 imgSrc2x={imgStockt09_2x}
-                caption="Lorem ipsum dolor sit amet"
+                caption="Bringing to higher fidelity"
               />
             </Col>
           </WorkRow>
@@ -157,7 +157,7 @@ class WorkItemFandor extends React.Component {
               <Figure
                 imgSrc={imgStockt11}
                 imgSrc2x={imgStockt11_2x}
-                caption="Lorem ipsum dolor sit amet"
+                caption="The development environment"
               />
             </Col>
           </WorkRow>

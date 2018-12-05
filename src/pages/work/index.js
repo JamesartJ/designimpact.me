@@ -164,7 +164,7 @@ class BlogIndex extends React.Component {
 
         <PageFooter>
           <h1>
-            <Link to="about">Who I am</Link>
+            <Link to="about">Learn who I am</Link>
           </h1>
         </PageFooter>
       </Layout>

@@ -6,6 +6,8 @@ import { Row, Col } from 'react-grid-system'
 import ReactPlayer from 'react-player'
 import PageHeader from './PageHeader'
 
+// box-shadow: 0 14px 40px rgba(0,0,0,0.05), 0 10px 20px rgba(0,0,0,0.02);
+
 const videoStyle = css`
   width: 100% !important;
   height: auto !important;
@@ -29,7 +31,6 @@ const aspectRatioBoxInner = css`
 
 const imageStyle = css`
   margin: 0;
-  box-shadow: 0 14px 40px rgba(0,0,0,0.05), 0 10px 20px rgba(0,0,0,0.02);
   border-radius: 4px;
 `
 

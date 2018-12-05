@@ -26,6 +26,8 @@ import imgCortana03 from '../../../assets/cortana/cortana-03.png'
 import imgCortana03_2x from '../../../assets/cortana/cortana-03@2x.png'
 import imgCortana04 from '../../../assets/cortana/cortana-04.png'
 import imgCortana04_2x from '../../../assets/cortana/cortana-04@2x.png'
+import imgCortana05 from '../../../assets/cortana/cortana-05.png'
+import imgCortana05_2x from '../../../assets/cortana/cortana-05@2x.png'
 
 class WorkItemCortana extends React.Component {
   render() {
@@ -64,7 +66,7 @@ class WorkItemCortana extends React.Component {
         </WorkSection>
         <WorkSection
           title="Information Architecture"
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+          description={`In creating the IA for this experience, we needed to strike a balance of guiding the users while still giving them percieved freedom to explore the features of their own interest. First the user selects whether their intereseted in Cortana's use at home or at work. From there the IA funcctions as a branching decision tree. At the base leaves, users are moved back to the tops of alternative trees to continue exploring new skills along new branches. This allows the user to immediately explore skills that matter most to them while still have the freedom to explore all skills as part of a continuous experience.`}
         >
           <WorkRow>
             <Col sm={10} offset={{ sm: 1 }}>
@@ -83,14 +85,17 @@ class WorkItemCortana extends React.Component {
         >
           <WorkRow>
             <Col sm={10} offset={{ sm: 1 }}>
-              <Figure imgSrc={imgCortana04} imgSrc2x={imgCortana04_2x} />
+              <Figure
+                videoSrc="https://youtu.be/AH8W85VIlt4"
+                caption="Display interaction demo"
+              />
             </Col>
           </WorkRow>
           <WorkRow>
             <Col sm={10} offset={{ sm: 1 }}>
-              <Figure
-                videoSrc="https://youtu.be/AH8W85VIlt4"
-                caption="Lorem ipsum dolor sit amet"
+            <Figure
+                videoSrc="https://www.youtube.com/watch?v=wnd1P1sYoYg"
+                caption="Microsoft Surface Interaction prototype"
               />
             </Col>
           </WorkRow>
@@ -101,20 +106,8 @@ class WorkItemCortana extends React.Component {
         >
           <WorkRow>
             <Col sm={10} offset={{ sm: 1 }}>
-              <Figure
-                imgSrc="https://placehold.it/860x565"
-                imgSrc2x="https://placehold.it/1720x1130"
-                caption="Lorem ipsum dolor sit amet"
-              />
-            </Col>
-          </WorkRow>
-          <WorkRow>
-            <Col sm={10} offset={{ sm: 1 }}>
-              <Figure
-                imgSrc="https://placehold.it/860x565"
-                imgSrc2x="https://placehold.it/1720x1130"
-                caption="Lorem ipsum dolor sit amet"
-              />
+              <Figure imgSrc={imgCortana05} imgSrc2x={imgCortana05_2x}
+              caption="Installation at Store Zero" />
             </Col>
           </WorkRow>
         </WorkSection>

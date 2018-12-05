@@ -121,7 +121,7 @@ class About extends React.Component {
               <Figure
                 imgSrc={imgCollege00}
                 imgSrc2x={imgCollege00_2x}
-                caption="The Standard Model"
+                caption="The Standard Model for the Physics department"
               />
             </Col>
             <Col sm={3}>
@@ -136,7 +136,7 @@ class About extends React.Component {
             <Col sm={11} offset={{ sm: 1 }}>
               <Figure
                 videoSrc="https://vimeo.com/122205576"
-                caption="Malaria - think Resovoir Dogs with a hint of  Breaking Bad"
+                caption="Malaria - It's Resovoir Dogs with a hint of  Breaking Bad"
               />
             </Col>
           </WorkRow>
