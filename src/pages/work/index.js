@@ -134,35 +134,7 @@ class BlogIndex extends React.Component {
             </Col>
           </Row>
         </div>
-
-        <div className={itemContainer}>
-          <Row>
-            <Col sm={12}>
-              <Link to="work/fandor">
-                <Figure imgSrc={FandorImage} imgSrc2x={FandorImage_2x} />
-              </Link>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={4}>
-              <h1 className={title}>
-                <Link to="work/fandor">View Fandor</Link>
-              </h1>
-              <div className={date}>Sep 2018</div>
-            </Col>
-            <Col sm={7} offset={{ sm: 1 }}>
-              <p className={copy}>
-                As part of a cross platform redesign of Fandor’s applications, I
-                worked as a supporting UX designer for their web experience and
-                as the lead designer on their TV application. Using personas and
-                competitive analysis, I designed both low and high fidelity
-                wireframes which were handed off to visual design before being
-                delivered to the client.
-              </p>
-            </Col>
-          </Row>
-        </div>
-
+       
         <PageFooter>
           <h1>
             <Link to="about">Learn who I am</Link>

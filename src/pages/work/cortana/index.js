@@ -102,12 +102,12 @@ class WorkItemCortana extends React.Component {
         </WorkSection>
         <WorkSection
           title="In-store Setup"
-          description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
+          description={`Designing the installation process required some quick guerilla research. I interview store employees to discuss their regular installation process, and designed an web app to step them through the process of setting up the installation. After a successful test of the experience at the Microsoft store in Corte Madera, from employee setup through to the customer’s journey, the experience was rolled out to stores across the country.`}
         >
           <WorkRow>
             <Col sm={10} offset={{ sm: 1 }}>
               <Figure imgSrc={imgCortana05} imgSrc2x={imgCortana05_2x}
-              caption="Installation at Store Zero" />
+              caption="Installation at demo store/>
             </Col>
           </WorkRow>
         </WorkSection>
