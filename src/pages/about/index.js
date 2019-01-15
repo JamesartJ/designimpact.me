@@ -73,7 +73,7 @@ class About extends React.Component {
         </WorkSection>
 
         <WorkSection
-          title="Highschool"
+          title="High School"
           description="I discovered graphic design in high-school. As a student of the theatre department, I taught myself photoshop and illustrator and began designing posters for our school plays. A local parent in the community noticed, and asked me to design a logo for her company, a women’s health and beauty startup called Flora. During this time, I also discovered the joy of Physics and Math though AP classes and on the weekends I busked with my violin around the bay."
         >
           <WorkRow>

@@ -106,8 +106,10 @@ class WorkItemCortana extends React.Component {
         >
           <WorkRow>
             <Col sm={10} offset={{ sm: 1 }}>
-              <Figure imgSrc={imgCortana05} imgSrc2x={imgCortana05_2x}
-              caption="Installation at demo store/>
+              <Figure 
+                imgSrc={imgCortana05} imgSrc2x={imgCortana05_2x}
+                caption="Installation at demo store"
+              />
             </Col>
           </WorkRow>
         </WorkSection>
@@ -120,9 +122,6 @@ class WorkItemCortana extends React.Component {
             <li>
               <Link to="/work/stockt">Stockt</Link>
             </li>
-            // <li>
-            //   <Link to="/work/fandor">Fandor</Link>
-            // </li>
           </ul>
         </PageFooter>
       </Layout>

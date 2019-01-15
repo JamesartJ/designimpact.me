@@ -170,9 +170,6 @@ class WorkItemFandor extends React.Component {
             <li>
               <Link to="/work/cortana">Cortana</Link>
             </li>
-            // <li>
-            //   <Link to="/work/fandor">Fandor</Link>
-            // </li>
           </ul>
         </PageFooter>
       </Layout>
