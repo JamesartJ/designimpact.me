@@ -120,9 +120,9 @@ class WorkItemCortana extends React.Component {
             <li>
               <Link to="/work/stockt">Stockt</Link>
             </li>
-            <li>
-              <Link to="/work/fandor">Fandor</Link>
-            </li>
+            // <li>
+            //   <Link to="/work/fandor">Fandor</Link>
+            // </li>
           </ul>
         </PageFooter>
       </Layout>
